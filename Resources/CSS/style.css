@@ -1,0 +1,15 @@
+/* Overall */
+
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+
+/* Header + Headline */
+
+.background_header_headline {
+  background-image: url("../Photos/glasses-bg.png");
+  background-size: cover;
+  height: 30rem;
+}
