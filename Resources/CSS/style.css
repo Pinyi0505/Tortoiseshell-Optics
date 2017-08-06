@@ -162,3 +162,26 @@ header img {
   flex-direction: column;
   width: 35%;
 }
+
+
+/* Footer */
+
+.footer {
+  background-color: azure;
+  max-width: 960px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+footer {
+  padding: 4rem;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
