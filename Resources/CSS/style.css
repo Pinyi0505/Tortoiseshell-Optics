@@ -189,4 +189,9 @@ footer img {
 
 /* Media Query (Max-Width: 750px) */
 
-@media only screen and (max-width: 750px) {}
+@media only screen and (max-width: 1125px) {
+  /* Overall */
+  html {
+    width: 100%;
+  }
+}
