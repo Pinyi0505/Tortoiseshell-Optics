@@ -191,7 +191,7 @@ footer img {
 }
 
 
-/* Media Query (Max-Width: 750px) */
+/* Media Query (Max-Width: 1024px) */
 
 @media only screen and (max-width: 1024px) {
   /* Overall */
@@ -206,4 +206,16 @@ footer img {
   .header {
     padding-top: 0;
   }
+  /* Headline */
+  .headline {
+    margin-top: 5rem;
+    padding: 1.75rem 4rem;
+    font-size: 1.33rem;
+    margin-right: 2rem;
+  }
 }
+
+
+/* Media Query (Max-Width: 700px) */
+
+@media only screen and (max-width: 700px) {}
