@@ -45,8 +45,12 @@ header img {
   align-items: center;
 }
 
-nav span {
+.margin {
   margin-right: 2rem;
+}
+
+.phone {
+  display: none;
 }
 
 
@@ -125,6 +129,10 @@ nav span {
   justify-content: center;
   align-content: center;
   margin: 0 auto;
+}
+
+.phone_features_position {
+  display: none;
 }
 
 
@@ -218,4 +226,59 @@ footer img {
 
 /* Media Query (Max-Width: 700px) */
 
-@media only screen and (max-width: 700px) {}
+@media only screen and (max-width: 700px) {
+  /* Header and Headline */
+  .background_header_headline {
+    height: 17rem;
+    background-position: 20%;
+  }
+  /* Header */
+  .computer {
+    display: none;
+  }
+  .phone {
+    display: inline;
+  }
+  .logo_name span {
+    display: none;
+  }
+  /* Headline */
+  .headline {
+    margin-top: 9rem;
+    padding: 1rem;
+    width: 100%;
+    margin-right: 0;
+    font-size: 1rem;
+    justify-content: center;
+  }
+  /* Features */
+  .features_position {
+    display: none;
+  }
+  .phone_features_position {
+    display: flex;
+    justify-content: center;
+    margin: 3.77rem 0;
+  }
+  .phone_feature {
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    justify-content: center;
+  }
+  .phone_margin {
+    margin-top: 1.54rem;
+  }
+  .phone_paper {
+    width: 3.5rem;
+    margin: 0 auto;
+  }
+  .phone_width {
+    width: 5rem;
+    margin: 0 auto;
+  }
+  .phone_feature span {
+    margin: 0 auto;
+    font-size: 0.77rem;
+  }
+}
