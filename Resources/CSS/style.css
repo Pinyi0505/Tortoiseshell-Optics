@@ -45,6 +45,10 @@ header img {
   align-items: center;
 }
 
+nav span {
+  margin-right: 2rem;
+}
+
 
 /* Headline */
 
@@ -189,10 +193,14 @@ footer img {
 
 /* Media Query (Max-Width: 750px) */
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1024px) {
   /* Overall */
   html {
     width: 100%;
+  }
+  /* Header and Headline */
+  .background_header_headline {
+    height: 22rem;
   }
   /* Header */
   .header {
