@@ -3,6 +3,7 @@
 html {
   font-size: 18px;
   line-height: 1.4;
+  font-family: Helvetica;
 }
 
 
@@ -12,4 +13,34 @@ html {
   background-image: url("../Photos/glasses-bg.png");
   background-size: cover;
   height: 30rem;
+}
+
+
+/* Header */
+
+.header {
+  padding-top: 1rem;
+}
+
+header {
+  max-width: 960px;
+  display: flex;
+  background-color: cadetblue;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  color: white;
+}
+
+header img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.logo_name {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
