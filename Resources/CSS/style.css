@@ -185,3 +185,8 @@ footer img {
   height: 1.5rem;
   padding-right: 1rem;
 }
+
+
+/* Media Query (Max-Width: 750px) */
+
+@media only screen and (max-width: 750px) {}
