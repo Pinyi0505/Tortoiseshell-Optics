@@ -122,3 +122,43 @@ header img {
   align-content: center;
   margin: 0 auto;
 }
+
+
+/* Philosophy and Appointments */
+
+.philosophy_appointments {
+  max-width: 960px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+  justify-content: center;
+}
+
+.heading {
+  font-weight: bold;
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+
+/* Philosophy */
+
+.philosophy {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+
+/* Appointments */
+
+.appointments {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
