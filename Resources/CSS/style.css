@@ -61,5 +61,8 @@ header img {
 
 .headline_position {
   max-width: 996px;
-  margin-left: 32rem;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  align-items: center;
 }
