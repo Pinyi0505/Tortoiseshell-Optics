@@ -263,8 +263,6 @@ footer img {
   .phone_feature {
     display: flex;
     flex-direction: column;
-    height: 8rem;
-    justify-content: center;
   }
   .phone_margin {
     margin-top: 1.54rem;
@@ -280,5 +278,38 @@ footer img {
   .phone_feature span {
     margin: 0 auto;
     font-size: 0.77rem;
+    padding-top: 1.25rem;
+  }
+  /* Philosophy and Appointment */
+  .philosophy_appointments {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .heading {
+    text-align: center;
+    width: 100%;
+  }
+  .philosophy {
+    width: 100%;
+  }
+  .appointments {
+    width: 100%;
+  }
+  .margin_four {
+    margin-bottom: 4rem;
+    font-size: 0.77rem;
+    padding: 0 0.5rem;
+  }
+  /* Footer */
+  footer span {
+    display: none;
+  }
+  footer img {
+    padding: 0;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
   }
 }
